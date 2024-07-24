@@ -1,0 +1,187 @@
+.stepEditor {
+  display: flex;
+  align-items: center;
+  border: 1px solid #969292;
+  width: 37vw;
+  margin-left: 3.5vw;
+  margin-top: 3vh;
+  border-radius: 5px;
+  padding: 5px;
+  height: 4vh;
+  z-index: 2;
+}
+
+.popUp {
+  border: 1px solid #d1c1c1;
+  margin-top: 20px;
+  background-color: white;
+  width: 30vw;
+  cursor: pointer;
+  border-radius: 6px;
+  box-shadow: 3px 3px #d5dadc;
+  margin-left: 3.4vw;
+  position: fixed;
+  z-index: 2;
+  height: 25vh;
+  font-size: larger;
+}
+
+input[type="text"] {
+  border: none;
+  outline: none;
+  padding: 8px;
+  font-size: 16px;
+}
+
+.border {
+  border: 1px solid #cfc9c9;
+  height: 20vh;
+  width: 45vw;
+  translate: 30vw;
+  border-radius: 10px;
+  box-shadow: 2px 2px #dbdfe1;
+}
+
+.okBtn {
+  background-color: #6490e8;
+  color: white;
+  height: 4.6vh;
+  width: 5vw;
+  border-radius: 5px;
+  border: 1px solid;
+  translate: 36.3vw 5.4vh;
+  position: static;
+  cursor: pointer;
+}
+
+.cancelBtn {
+  color: red;
+  background-color: white;
+  height: 4.6vh;
+  width: 5vw;
+  border: none;
+  translate: 25vw 5.4vh;
+  position: static;
+  cursor: pointer;
+}
+
+.deleteBtn {
+  color: white;
+  border: none;
+  translate: 27vw;
+  border-radius: 50%;
+  background-color: #e86868;
+  cursor: pointer;
+}
+
+.deleteBtn2 {
+  color: white;
+  border: none;
+  border-radius: 50%;
+  background-color: #e86868;
+  translate: 19vw;
+  cursor: pointer;
+}
+
+.deleteBtn3 {
+  color: white;
+  border: none;
+  border-radius: 50%;
+  background-color: #e86868;
+  translate: 22vw;
+  cursor: pointer;
+}
+
+.orangeText {
+  color: #eab148;
+}
+
+.greenText {
+  color: green;
+}
+
+.purpleText {
+  color: rgb(185, 100, 185);
+}
+
+.listStyle {
+  list-style: none;
+}
+
+.greenBtnLi {
+  background-color: #a1e8a1;
+  border: none;
+  border-radius: 2px;
+  padding: 10px 10px 10px 10px;
+  margin-right: 9px;
+  color: white;
+}
+
+.listItem {
+  margin-bottom: 10px;
+}
+
+.pinkBtnLi {
+  background-color: rgb(185, 100, 185);
+  border: none;
+  border-radius: 2px;
+  padding: 10px 10px 10px 10px;
+  margin-right: 9px;
+  color: white;
+}
+
+.pinkBtnLiInner {
+  background-color: rgb(185, 100, 185);
+  border: none;
+  border-radius: 3px;
+  color: white;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.searchBar {
+  border: 1px solid #969292;
+  border-radius: 5px;
+  height: 4vh;
+  width: 80%;
+  margin-top: 25px;
+  margin-left: 35px;
+}
+.popUp1 {
+  border: 1px solid #d1c1c1;
+  margin-top: 20px;
+  background-color: white;
+  width: 20vw;
+  cursor: pointer;
+  border-radius: 6px;
+  box-shadow: 3px 3px #d5dadc;
+  margin-left: 3.4vw;
+  position: fixed;
+  z-index: 2;
+  height: 25vh;
+  font-size: larger;
+}
+.abc {
+  width: 15vw;
+  font-size: large;
+}
+.abcd {
+  font-size: large;
+  position: fixed;
+}
+.delt {
+  color: white;
+  border: none;
+  translate: 34.5vw;
+  border-radius: 50%;
+  background-color: #e86868;
+  cursor: pointer;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.container {
+  margin-top: 25vh;
+}
